@@ -1,0 +1,11 @@
+body, div, p {
+    padding: 0px;
+    margin: 0px;
+}
+span{
+    margin-left: 5px;
+    padding: 10px;
+}
+div.content > span:first-child{
+    margin-left: 0px;
+}
